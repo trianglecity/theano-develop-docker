@@ -18,18 +18,18 @@ How to setup the Theano develop mode using Docker.
 
 [6] (in the bash shell) root@60cddc014353:/home/develop# apt-get remove -y python-numpy
 
-[6] (in the bash shell) root@60cddc014353:/home/develop# pip install nump
+[7] (in the bash shell) root@60cddc014353:/home/develop# pip install nump
 
-[7] (in the bash shell) root@60cddc014353:/home/develop# python setup.py develop
+[8] (in the bash shell) root@60cddc014353:/home/develop# python setup.py develop
 
-[8] go to the line 28 in ./theano/__init__.py
+[9] go to the line 28 in ./theano/__init__.py
 
-[9] delete # to enable the line 28 
+[10] delete # to enable the line 28 
 	print ("... working in Docker from the souce code ...")
 
-[10] (in the shell) root@60cddc014353:/home/develop# python
+[11] (in the shell) root@60cddc014353:/home/develop# python
 
-[11] (in the shell) >>> import theano
+[12] (in the shell) >>> import theano
 			... working in Docker from the souce code ...
 
 You can see the souce code chanage in Theano on the fly in Docker.
