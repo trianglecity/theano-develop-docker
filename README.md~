@@ -7,7 +7,7 @@ Please refer to https://docs.docker.com/opensource/project/set-up-dev-env/ for m
 
 How to setup the Theano-develop-mode using Docker.
 
-[1] download (or git clone) this source code folder.
+[1] download (or git clone https://github.com/trianglecity/theano-develop-docker.git) this source code folder.
 
 [2] cd source-code-folder
 
