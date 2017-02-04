@@ -33,7 +33,7 @@ How to setup the Theano-develop-mode using Docker.
 
 [12] >>> import theano
 
-[13]			... working in Docker from the souce code ...
+			... working in Docker from the souce code ...
 
 You can see the souce code change in Theano on the fly in Docker.
 
