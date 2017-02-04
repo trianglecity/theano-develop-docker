@@ -34,6 +34,6 @@ How to setup the Theano-develop-mode using Docker.
 
 [13]			... working in Docker from the souce code ...
 
-You can see the souce code chanage in Theano on the fly in Docker.
+You can see the souce code change in Theano on the fly in Docker.
 
 
