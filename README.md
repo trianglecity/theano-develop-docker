@@ -25,7 +25,8 @@ How to setup the Theano-develop-mode using Docker.
 
 [9] go to the line 28 in ./theano/__init__.py in the downloaded source code folder.
 
-[10] delete # to enable the line 28 and save the file 
+[10] delete # to enable the line 28 and save the file
+ 
 	print ("... working in Docker from the souce code ...")
 
 [11] root@60cddc014353:/home/develop# python
