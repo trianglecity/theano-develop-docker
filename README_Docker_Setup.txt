@@ -18,7 +18,7 @@ How to setup the Theano-develop-mode using Docker.
 
 [6]  root@60cddc014353:/home/develop# apt-get remove -y python-numpy
 
-[7]  root@60cddc014353:/home/develop# pip install nump
+[7]  root@60cddc014353:/home/develop# pip install numpy
 
 [8]  root@60cddc014353:/home/develop# python setup.py develop
 
