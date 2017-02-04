@@ -31,7 +31,8 @@ How to setup the Theano-develop-mode using Docker.
 [11] (in the shell) root@60cddc014353:/home/develop# python
 
 [12] (in the shell) >>> import theano
-			... working in Docker from the souce code ...
+
+[13]			... working in Docker from the souce code ...
 
 You can see the souce code chanage in Theano on the fly in Docker.
 
