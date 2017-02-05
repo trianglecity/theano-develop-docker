@@ -23,8 +23,8 @@ DOCKER_ENVS := \
 	-e DOCKER_INCREMENTAL_BINARY 
 
 
-BIND_DIR := $(if $(BINDDIR),$(BINDDIR),$(if $(DOCKER_HOST),,develop))
-DOCKER_DIR_GENERATE := $(if $(BINDDIR),-v "/home/develop/$(BIND_DIR)")
+BIND_DIR := $(if $(BIND_DIR),$(BIND_DIR),$(if $(DOCKER_HOST),,develop))
+DOCKER_DIR_GENERATE := $(if $(BIND_DIR),-v "/home/develop/$(BIND_DIR)")
 DOCKER_MOUNT := $(if $(BIND_DIR),-v "$(CURDIR)/$(BIND_DIR):/home/develop/$(BIND_DIR)")
 
 DOCKER_MOUNT := $(if $(DOCKER_MOUNT),$(DOCKER_MOUNT),-v "/home/develop/$(BIND_DIR)")

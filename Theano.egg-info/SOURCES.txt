@@ -10,17 +10,6 @@ README_Docker_Setup.txt
 requirement-rtd.txt
 setup.cfg
 setup.py
-.jenkins/jenkins_buildbot_nogpp.sh
-.jenkins/jenkins_buildbot_python2.sh
-.jenkins/jenkins_buildbot_python2_32bit.sh
-.jenkins/jenkins_buildbot_python2_debug.sh
-.jenkins/jenkins_buildbot_python3.sh
-.jenkins/jenkins_buildbot_release_extra.sh
-.jenkins/jenkins_pretest.sh
-.jenkins/jenkins_test1.sh
-.jenkins/jenkins_test2.sh
-.travis/travis_before_install.sh
-.travis/travis_install.sh
 Theano.egg-info/PKG-INFO
 Theano.egg-info/SOURCES.txt
 Theano.egg-info/dependency_links.txt
